@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 import { expect } from "chai";
 import Ajv from "ajv";
+import schema_getuser from "./reqresSchema.js";
 
 describe("cobain test", function () {
     const baseURL = "https://reqres.in";
